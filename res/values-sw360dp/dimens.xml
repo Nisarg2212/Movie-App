@@ -1,0 +1,83 @@
+<resources>
+    
+    <dimen name="D40">45dp</dimen>
+    <dimen name="D125">141dp</dimen>
+    <dimen name="D180">203dp</dimen>
+    <dimen name="D45">51dp</dimen>
+    <dimen name="D20">23dp</dimen>
+    <dimen name="D5">6dp</dimen>
+    <dimen name="T20">23sp</dimen>
+    <dimen name="T12">14sp</dimen>
+    <dimen name="D273">307dp</dimen>
+    <dimen name="D48">54dp</dimen>
+    <dimen name="D10">11dp</dimen>
+    <dimen name="D3">3dp</dimen>
+    <dimen name="D127">143dp</dimen>
+    <dimen name="D15">17dp</dimen>
+    <dimen name="T14">16sp</dimen>
+    <dimen name="D237">267dp</dimen>
+    <dimen name="D108">122dp</dimen>
+    <dimen name="D13">15dp</dimen>
+    
+    
+    <dimen name="D55">62dp</dimen>
+    <dimen name="D53">60dp</dimen>
+    <dimen name="D95">107dp</dimen>
+    
+    
+    <dimen name="D31">35dp</dimen>
+    <dimen name="D250">281dp</dimen>
+    <dimen name="D25">28dp</dimen>
+    <dimen name="T25">28sp</dimen>
+    <dimen name="D24">27dp</dimen>
+    <dimen name="D65">73dp</dimen>
+    <dimen name="T65">73sp</dimen>
+    <dimen name="D49">55dp</dimen>
+    <dimen name="D33">37dp</dimen>
+    <dimen name="D43">48dp</dimen>
+    <dimen name="D39">44dp</dimen>
+    <dimen name="D_5">-6dp</dimen>
+    <dimen name="D_10">-11dp</dimen>
+    
+    
+    <dimen name="D85">96dp</dimen>
+    <dimen name="D103">116dp</dimen>
+    <dimen name="T16">18sp</dimen>
+    
+    <dimen name="D214">241dp</dimen>
+    
+    <dimen name="D46">52sp</dimen>
+    <dimen name="D60">68dp</dimen>
+    <dimen name="D4">5dp</dimen>
+    
+    <dimen name="D_53">-60dp</dimen>
+    <dimen name="D1">1dp</dimen>
+    <dimen name="D12">13dp</dimen>
+    <dimen name="D18">20dp</dimen>
+    
+    <dimen name="D225">253dp</dimen>
+    <dimen name="D102">115dp</dimen>
+    
+    <dimen name="shadow_width">14dp</dimen>
+    
+    
+    <dimen name="D36">41dp</dimen>
+    <dimen name="D38">43dp</dimen>
+    <dimen name="D7">8dp</dimen>
+    <dimen name="D30">34dp</dimen>
+    <dimen name="T9">10sp</dimen>
+    
+    
+    <dimen name="D221">249dp</dimen>
+    <dimen name="D242">272dp</dimen>
+    <dimen name="D120">135dp</dimen>
+    <dimen name="D91">102dp</dimen>
+    <dimen name="D62">70dp</dimen>
+    
+    <dimen name="T18">20sp</dimen>
+    <dimen name="T13">15sp</dimen>
+    <dimen name="D_30">-34dp</dimen>
+    
+    <dimen name="D186">210dp</dimen>
+    <dimen name="D320">360dp</dimen>
+</resources>

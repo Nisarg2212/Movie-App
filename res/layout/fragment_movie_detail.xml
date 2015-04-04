@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"/>
+
+   <ScrollView android:layout_width="match_parent"
+       android:layout_height="@dimen/D125"
+       android:layout_alignParentBottom="true"
+        android:background="@drawable/black_trans">
+       
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/D125">
+
+        <TextView
+            android:id="@+id/title"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/D10" 
+            android:textSize="@dimen/T13"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/desc"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginBottom="@dimen/D5"
+            android:layout_marginLeft="@dimen/D5"
+            android:layout_marginRight="@dimen/D5"
+            android:layout_marginTop="@dimen/D15"
+            android:gravity="center" 
+            android:textSize="@dimen/T12"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+   </ScrollView>
+    
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Movie poster is not available"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/T14"
+        android:visibility="gone" />
+
+</RelativeLayout>

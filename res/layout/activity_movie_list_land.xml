@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:tag="landscape"
+    tools:context=".MovieListActivity" >
+
+    <FrameLayout
+        android:id="@+id/movie_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/movie_detail_container"
+        android:background="@drawable/album_frame"
+        android:padding="@dimen/D20" />
+
+    <FrameLayout
+        android:id="@+id/movie_detail_container"
+        android:layout_width="@dimen/D320"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/album_frame"
+        android:padding="@dimen/D20" />
+
+</RelativeLayout>
