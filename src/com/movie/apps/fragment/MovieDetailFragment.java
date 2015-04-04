@@ -56,7 +56,7 @@ public class MovieDetailFragment extends Fragment {
 		if (movieObject != null) {
 			title.setText(movieObject.title);
 			description.setText(movieObject.description);
-			if (!movieObject.image.equalsIgnoreCase("N/A") || !movieObject.image.equalsIgnoreCase("")) {
+			if (!movieObject.image.equalsIgnoreCase("N/A") && !movieObject.image.equalsIgnoreCase("")) {
 				aq.id(img).progress(R.id.progressBar1).image(movieObject.image);
 			}
 			apiCall(movieObject.id);
@@ -68,7 +68,7 @@ public class MovieDetailFragment extends Fragment {
 			
 			@Override
 			public void onClick(View v) {
-				if(!movieObject.image.equalsIgnoreCase("N/A") || !movieObject.image.equalsIgnoreCase("")){
+				if(movieObject != null && (!movieObject.image.equalsIgnoreCase("N/A") && !movieObject.image.equalsIgnoreCase(""))){
 					Intent i = new Intent(getActivity(), MovieFullPosterActivity.class);
 					i.putExtra(AppConstatnts.movieObjectTag, movieObject);
 					getActivity().startActivity(i);
@@ -96,7 +96,7 @@ public class MovieDetailFragment extends Fragment {
 						movieObject.description = object.getString("Genre") + "\n" + object.getString("Plot");
 						movieObject.image = object.getString("Poster");
 						description.setText(movieObject.description);
-						if (!movieObject.image.equalsIgnoreCase("N/A") || !movieObject.image.equalsIgnoreCase("")) {
+						if (!movieObject.image.equalsIgnoreCase("N/A") && !movieObject.image.equalsIgnoreCase("")) {
 							aq.id(img).progress(R.id.progressBar1).image(movieObject.image);
 						} else {
 							getView().findViewById(R.id.textView1).setVisibility(View.VISIBLE);
